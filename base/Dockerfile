@@ -8,7 +8,7 @@ ENV \
 
 # Install packages.
 RUN \
-  apk --update add bash coreutils curl nano procps rsync tar wget && \
+  apk --update add bash coreutils curl nano procps rsync tar wget openrc && \
   rm -rf /var/cache/apk/*
 
 # Set the default command.
